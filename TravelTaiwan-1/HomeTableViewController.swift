@@ -51,10 +51,20 @@ class HomeTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TripCellTableViewCell", for: indexPath) as! TripCellTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "\(TripCellTableViewCell.self)", for: indexPath) as? TripCellTableViewCell else {return UITableViewCell()}
+        
         let intem = tripData[indexPath.row]
         cell.tripLabel.text = intem.Name
-        
+        cell.tripCellImage.image = nil
+        if let url = URL(string: intem.Picture1!){
+            URLSession.shared.dataTask(with: url) { data, respond, error in
+                if let data = data{
+                    DispatchQueue.main.async {
+                        cell.tripCellImage.image = UIImage(data: data)
+                    }
+                }
+            }.resume()
+        }
 
         return cell
     }

@@ -13,4 +13,5 @@ struct Infos:Codable {
 }
 struct Info:Codable {
     let Name:String
+    let Picture1:String?
 }
