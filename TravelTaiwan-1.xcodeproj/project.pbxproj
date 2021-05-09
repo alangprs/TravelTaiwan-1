@@ -15,6 +15,11 @@
 		4DC33B73264517E6001C5A46 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B72264517E6001C5A46 /* HomeTableViewController.swift */; };
 		4DC33B7526451825001C5A46 /* TripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B7426451825001C5A46 /* TripData.swift */; };
 		4DC33B7726464E67001C5A46 /* TripCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B7626464E67001C5A46 /* TripCellTableViewCell.swift */; };
+		4DC33B792646F5AB001C5A46 /* ShowImageDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B782646F5AB001C5A46 /* ShowImageDataViewController.swift */; };
+		4DC33B7D2647AC37001C5A46 /* HomestayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B7C2647AC37001C5A46 /* HomestayTableViewController.swift */; };
+		4DC33B7F2647AC5F001C5A46 /* HomestayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B7E2647AC5F001C5A46 /* HomestayData.swift */; };
+		4DC33B812647B1A2001C5A46 /* HomestayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B802647B1A2001C5A46 /* HomestayTableViewCell.swift */; };
+		4DC33B842647D314001C5A46 /* ShowHomestayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33B832647D314001C5A46 /* ShowHomestayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		4DC33B72264517E6001C5A46 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		4DC33B7426451825001C5A46 /* TripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripData.swift; sourceTree = "<group>"; };
 		4DC33B7626464E67001C5A46 /* TripCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCellTableViewCell.swift; sourceTree = "<group>"; };
+		4DC33B782646F5AB001C5A46 /* ShowImageDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageDataViewController.swift; sourceTree = "<group>"; };
+		4DC33B7C2647AC37001C5A46 /* HomestayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomestayTableViewController.swift; sourceTree = "<group>"; };
+		4DC33B7E2647AC5F001C5A46 /* HomestayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomestayData.swift; sourceTree = "<group>"; };
+		4DC33B802647B1A2001C5A46 /* HomestayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomestayTableViewCell.swift; sourceTree = "<group>"; };
+		4DC33B832647D314001C5A46 /* ShowHomestayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHomestayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,8 @@
 			children = (
 				4DC33B7626464E67001C5A46 /* TripCellTableViewCell.swift */,
 				4DC33B7426451825001C5A46 /* TripData.swift */,
+				4DC33B7E2647AC5F001C5A46 /* HomestayData.swift */,
+				4DC33B802647B1A2001C5A46 /* HomestayTableViewCell.swift */,
 				4DC33B5D264517A2001C5A46 /* TravelTaiwan-1 */,
 				4DC33B5C264517A2001C5A46 /* Products */,
 			);
@@ -65,6 +77,9 @@
 				4DC33B5E264517A2001C5A46 /* AppDelegate.swift */,
 				4DC33B60264517A2001C5A46 /* SceneDelegate.swift */,
 				4DC33B64264517A2001C5A46 /* Main.storyboard */,
+				4DC33B832647D314001C5A46 /* ShowHomestayViewController.swift */,
+				4DC33B782646F5AB001C5A46 /* ShowImageDataViewController.swift */,
+				4DC33B7C2647AC37001C5A46 /* HomestayTableViewController.swift */,
 				4DC33B72264517E6001C5A46 /* HomeTableViewController.swift */,
 				4DC33B67264517A7001C5A46 /* Assets.xcassets */,
 				4DC33B69264517A7001C5A46 /* LaunchScreen.storyboard */,
@@ -144,9 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC33B73264517E6001C5A46 /* HomeTableViewController.swift in Sources */,
+				4DC33B7F2647AC5F001C5A46 /* HomestayData.swift in Sources */,
 				4DC33B5F264517A2001C5A46 /* AppDelegate.swift in Sources */,
 				4DC33B7526451825001C5A46 /* TripData.swift in Sources */,
+				4DC33B792646F5AB001C5A46 /* ShowImageDataViewController.swift in Sources */,
 				4DC33B7726464E67001C5A46 /* TripCellTableViewCell.swift in Sources */,
+				4DC33B812647B1A2001C5A46 /* HomestayTableViewCell.swift in Sources */,
+				4DC33B7D2647AC37001C5A46 /* HomestayTableViewController.swift in Sources */,
+				4DC33B842647D314001C5A46 /* ShowHomestayViewController.swift in Sources */,
 				4DC33B61264517A2001C5A46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

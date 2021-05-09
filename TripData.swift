@@ -13,5 +13,8 @@ struct Infos:Codable {
 }
 struct Info:Codable {
     let Name:String
-    let Picture1:String?
+    let Picture1:String? //照片
+    let Toldescribe:String //介紹
+    let Add:String //地址
+    let Tel:String //電話
 }
